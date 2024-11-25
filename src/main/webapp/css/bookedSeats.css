@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(to top, #171a1d, rgb(181 227 229));
+}
+
+.navbar{
+	background-color: #2c3e50;
+	padding: 1rem;
+	justify-content: space-between;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .nav-link {
+	color: #ffffff;
+}
+
+.navbar-brand {
+	justify-content: space-between;
+}
+
+.movie-card {
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+	display: flex;
+	flex-direction: column;
+	height: 100%; /* Ensure the card takes full height in the grid */
+}
+
+.movie-card:hover {
+	transform: scale(1.05);
+}
+
+.movie-poster {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 5px 5px 0 0;
+}
+
+.mb-4 {
+	margin-bottom: 1.5rem !important;
+	padding: 15px;
+}
+
+.movie-details {
+	flex-grow: 1; /* Makes the details area fill the remaining card space */
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; /* Spreads elements evenly */
+	text-align: center;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 8px;
+	position: relative;
+	top: 20vh;
+}
+
+.btn-primary:hover {
+	text-decoration: none;
+}
+
+.text-center h4 {
+	color: #e4f2a3;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	background-color:#2c3e50;
+	color: white;
+	padding: 1rem;
+	border-top: 1px solid white;
+	text-align: center;
+	width: 100%;
+	margin-top: 60vh;
+}
