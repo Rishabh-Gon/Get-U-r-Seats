@@ -14,7 +14,7 @@
 <body>
 	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-lg navbar-dark">
-		<a class="navbar-brand" href="#">Get U'r Seats</a>
+		<a class="navbar-brand" href="#">Grab U'r Seats</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarNav" aria-controls="navbarNav"
 			aria-expanded="false" aria-label="Toggle navigation">
